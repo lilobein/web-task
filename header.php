@@ -72,8 +72,6 @@ if (isLoggedIn()) {
                         
                         <div class="user-menu">
                             <span class="user-greeting">Привет, <?php echo htmlspecialchars($user['username']); ?>!</span>
-                            <a href="profile.php" class="auth-btn login-btn">Профиль</a>
-                            <a href="logout.php" class="auth-btn logout-btn">Выйти</a>
                         </div>
                     <?php else: ?>
                         <a href="login.php" class="auth-btn login-btn">Войти</a>
